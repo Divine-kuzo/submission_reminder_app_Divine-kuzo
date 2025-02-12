@@ -1,0 +1,3 @@
+# Sample Submissions Data
+John Doe, Assignment 1, Due: 2025-02-20, Status: Pending
+Jane Smith, Assignment 2, Due: 2025-02-22, Status: Submitted
