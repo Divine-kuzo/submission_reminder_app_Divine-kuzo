@@ -1,1 +1,0 @@
-# Functions script placeholder
