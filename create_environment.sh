@@ -68,24 +68,14 @@ Chinemerem, Shell Navigation, not submitted
 Chiagoziem, Git, submitted
 Divine, Shell Navigation, not submitted
 Anissa, Shell Basics, submitted
+Pascal, Git, not submitted
+Raquel, Shell Basics, submitted
+joy, Shell Navigation, not submitted
 EOF
 
 cat > "$main_dir/startup.sh" << 'EOF'
 #!/bin/bash
-
-# Source environment variables and helper functions
-source ./config/config.env
-source ./modules/functions.sh
-
-# Path to the submissions file
-submissions_file="./assets/submissions.txt"
-
-# Print remaining time and run the reminder function
-echo "Assignment: $ASSIGNMENT"
-echo "Days remaining to submit: $DAYS_REMAINING days"
-echo "--------------------------------------------"
-
-check_submissions $submissions_file
+bash app/reminder.sh
 EOF
 
 
